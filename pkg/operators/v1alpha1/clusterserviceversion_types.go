@@ -268,6 +268,7 @@ type ClusterServiceVersionSpec struct {
 	Provider                  AppLink                   `json:"provider,omitempty"`
 	Links                     []AppLink                 `json:"links,omitempty"`
 	Icon                      []Icon                    `json:"icon,omitempty"`
+	SourceTest                string                    `json:"sourcetest,omitempty"`
 
 	// InstallModes specify supported installation types
 	// +optional

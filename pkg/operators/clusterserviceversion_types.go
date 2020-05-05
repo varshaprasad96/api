@@ -172,6 +172,7 @@ type ClusterServiceVersionSpec struct {
 	Provider                  AppLink
 	Links                     []AppLink
 	Icon                      []Icon
+	SourceTest                string
 
 	// InstallModes specify supported installation types
 	// +optional
